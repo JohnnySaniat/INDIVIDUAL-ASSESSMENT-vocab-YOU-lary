@@ -1,9 +1,82 @@
 {
-  "-MiBsfuTafbEQ7eAULxV": {
-    "title": "Asynchronous Programming",
-    "firebaseKey": "-MiBsfuTafbEQ7eAULxV",
-    "Description": "In computer programming, asynchronous operation means that a process operates independently of other processes, whereas synchronous operation means that the process runs only as a result of some other process being completed or handed off.",
-    "category": "Tech",
-    "uid": "qSp895t9wIVGmyu2w9CRQOhCPlk2"
+  "-NdLyfWegUuzdA1Jkk20": {
+    "title": "Si",
+    "firebaseKey": "-NdLyfWegUuzdA1Jkk20",
+    "definition": "Donoher",
+    "uid": null,
+    "timeSubmitted": "7/31/2023",
+    "category": "Javascript"
+  },
+  "-NdLyfWf3gjlnJUfQymI": {
+    "title": "Patience",
+    "firebaseKey": "-NdLyfWf3gjlnJUfQymI",
+    "definition": "Amis",
+    "uid": null,
+    "timeSubmitted": "8/3/2023",
+    "category": "HTML"
+  },
+  "-NdLyfWgDAnocu4ZlTxA": {
+    "title": "Christy",
+    "firebaseKey": "-NdLyfWgDAnocu4ZlTxA",
+    "definition": "Wimlet",
+    "uid": null,
+    "timeSubmitted": "2/5/2023",
+    "category": "Javascript"
+  },
+  "-NdLyfWgDAnocu4ZlTxB": {
+    "title": "Holmes",
+    "firebaseKey": "-NdLyfWgDAnocu4ZlTxB",
+    "definition": "Buttler",
+    "uid": null,
+    "timeSubmitted": "12/6/2022",
+    "category": "CSS"
+  },
+  "-NdLyfWhDJ7CB7B3AeVr": {
+    "title": "Gilli",
+    "firebaseKey": "-NdLyfWhDJ7CB7B3AeVr",
+    "definition": "Bourchier",
+    "uid": null,
+    "timeSubmitted": "4/17/2023",
+    "category": "Webpack"
+  },
+  "-NdLyfWhDJ7CB7B3AeVs": {
+    "title": "Garrek",
+    "firebaseKey": "-NdLyfWhDJ7CB7B3AeVs",
+    "definition": "Sermin",
+    "uid": null,
+    "timeSubmitted": "2/18/2023",
+    "category": "Webpack"
+  },
+  "-NdLyfWiHLfBAiUY91ry": {
+    "title": "Hughie",
+    "firebaseKey": "-NdLyfWiHLfBAiUY91ry",
+    "definition": "Clatworthy",
+    "uid": null,
+    "timeSubmitted": "8/4/2023",
+    "category": "Javascript"
+  },
+  "-NdLyfWiHLfBAiUY91rz": {
+    "title": "Welsh",
+    "firebaseKey": "-NdLyfWiHLfBAiUY91rz",
+    "definition": "Meriot",
+    "uid": null,
+    "timeSubmitted": "10/9/2022",
+    "category": "CSS"
+  },
+  "-NdLyfWjse_Gu2hoNvIF": {
+    "title": "Giuseppe",
+    "firebaseKey": "-NdLyfWjse_Gu2hoNvIF",
+    "definition": "Sherrell",
+    "uid": null,
+    "timeSubmitted": "5/10/2023",
+    "category": "Webpack"
+  },
+  "-NdLyfWjse_Gu2hoNvIG": {
+    "title": "Jilli",
+    "firebaseKey": "-NdLyfWjse_Gu2hoNvIG",
+    "definition": "Dollard",
+    "uid": null,
+    "timeSubmitted": "1/19/2023",
+    "category": "HTML"
   }
 }
