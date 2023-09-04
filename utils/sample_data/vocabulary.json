@@ -3,80 +3,95 @@
     "title": "Si",
     "firebaseKey": "-NdLyfWegUuzdA1Jkk20",
     "definition": "Donoher",
-    "uid": null,
+    "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
     "timeSubmitted": "7/31/2023",
-    "category": "Javascript"
+    "category": "Javascript",
+    "isStarred": "true"
   },
   "-NdLyfWf3gjlnJUfQymI": {
     "title": "Patience",
     "firebaseKey": "-NdLyfWf3gjlnJUfQymI",
     "definition": "Amis",
-    "uid": null,
+    "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
     "timeSubmitted": "8/3/2023",
-    "category": "HTML"
+    "category": "HTML",
+    "isStarred": "true"
   },
   "-NdLyfWgDAnocu4ZlTxA": {
     "title": "Christy",
     "firebaseKey": "-NdLyfWgDAnocu4ZlTxA",
     "definition": "Wimlet",
-    "uid": null,
+    "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
     "timeSubmitted": "2/5/2023",
-    "category": "Javascript"
+    "category": "Javascript",
+    "isStarred": "true"
   },
   "-NdLyfWgDAnocu4ZlTxB": {
     "title": "Holmes",
     "firebaseKey": "-NdLyfWgDAnocu4ZlTxB",
     "definition": "Buttler",
-    "uid": null,
+    "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
     "timeSubmitted": "12/6/2022",
-    "category": "CSS"
+    "category": "CSS",
+    "isStarred": "true"
   },
   "-NdLyfWhDJ7CB7B3AeVr": {
     "title": "Gilli",
     "firebaseKey": "-NdLyfWhDJ7CB7B3AeVr",
     "definition": "Bourchier",
-    "uid": null,
+    "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
     "timeSubmitted": "4/17/2023",
-    "category": "Webpack"
+    "category": "Webpack",
+    "isStarred": "true"
   },
   "-NdLyfWhDJ7CB7B3AeVs": {
     "title": "Garrek",
     "firebaseKey": "-NdLyfWhDJ7CB7B3AeVs",
     "definition": "Sermin",
-    "uid": null,
+    "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
     "timeSubmitted": "2/18/2023",
-    "category": "Webpack"
+    "category": "Webpack",
+    "isStarred": "false"
+
   },
   "-NdLyfWiHLfBAiUY91ry": {
     "title": "Hughie",
     "firebaseKey": "-NdLyfWiHLfBAiUY91ry",
     "definition": "Clatworthy",
-    "uid": null,
+    "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
     "timeSubmitted": "8/4/2023",
-    "category": "Javascript"
+    "category": "Javascript",
+    "isStarred": "false"
+
   },
   "-NdLyfWiHLfBAiUY91rz": {
     "title": "Welsh",
     "firebaseKey": "-NdLyfWiHLfBAiUY91rz",
     "definition": "Meriot",
-    "uid": null,
+    "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
     "timeSubmitted": "10/9/2022",
-    "category": "CSS"
+    "category": "CSS",
+    "isStarred": "false"
+
   },
   "-NdLyfWjse_Gu2hoNvIF": {
     "title": "Giuseppe",
     "firebaseKey": "-NdLyfWjse_Gu2hoNvIF",
     "definition": "Sherrell",
-    "uid": null,
+    "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
     "timeSubmitted": "5/10/2023",
-    "category": "Webpack"
+    "category": "Webpack",
+    "isStarred": "true"
+
   },
   "-NdLyfWjse_Gu2hoNvIG": {
     "title": "Jilli",
     "firebaseKey": "-NdLyfWjse_Gu2hoNvIG",
     "definition": "Dollard",
-    "uid": null,
+    "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
     "timeSubmitted": "1/19/2023",
-    "category": "HTML"
+    "category": "HTML",
+    "isStarred": "true"
+
   }
 }
