@@ -69,8 +69,8 @@ const updateVocabulary = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-const vocabularyByCategory = () => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/vocabulary.json?orderBy="category"&equalTo="Webpack"`, {
+const vocabularyByStarred = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabulary.json?orderBy="isStarred"&equalTo="true"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -78,14 +78,14 @@ const vocabularyByCategory = () => new Promise((resolve, reject) => {
   })
     .then((response) => response.json())
     .then((data) => {
-      const onSale = Object.values(data).filter((item) => item.sale);
-      resolve(onSale);
+      const isStarred = Object.values(data).filter((item) => item.isStarred);
+      resolve(isStarred);
     })
     .catch(reject);
 });
 
-const vocabularyByStarred = () => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/vocabulary.json?orderBy="isStarred"&equalTo="true"`, {
+const vocabularyByCategory = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabulary.json?orderBy="category"&equalTo="Webpack"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',

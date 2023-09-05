@@ -7,15 +7,14 @@ const navigationEvents = (user) => {
     vocabularyData.getVocabulary(user.uid).then(showVocabulary);
   });
 
-  document.querySelector('#logout-button')
+  document.querySelector('#new-logout')
     .addEventListener('click', signOut);
 
-  document.querySelector('#starred-vocabulary').addEventListener('click', () => {
+  document.querySelector('#favorite-vocabulary').addEventListener('click', () => {
     vocabularyData.vocabularyByStarred(user.uid).then(showVocabulary);
   });
 
-  // TODO: AUTHORS BY FAVORITE
-  document.querySelector('#vocabulary-webpack').addEventListener('click', () => {
+  document.querySelector('#filter-vocabulary').addEventListener('click', () => {
     vocabularyData.vocabularyByCategory(user.uid).then(showVocabulary);
   });
 
