@@ -1,6 +1,6 @@
 import clearDom from '../../utils/clearDom';
 import renderToDOM from '../../utils/renderToDom';
-import selectCategory from './selectCategoryForm';
+// import selectCategory from './selectCategoryForm';
 
 const addVocabularyForm = (uid, obj = {}) => {
   clearDom();
@@ -28,12 +28,11 @@ const addVocabularyForm = (uid, obj = {}) => {
         <input type="checkbox" class="form-check-input" id="isStarred" ${obj.isStarred ? 'checked' : ''}>
         <label class="form-check-label" for="isStarred">Want to add as a Favorite?</label>
       </div>
-      <button type="submit" class="btn btn-primary">Submit Vocabulary
+      <button type="submit" class="btn btn-primary" id="submit-vocabulary-btn">Submit Vocabulary
       </button>
     </form>`;
 
   renderToDOM('#form-container', domString);
-  selectCategory(`${obj.category || ''}`, uid);
 };
 
 export default addVocabularyForm;

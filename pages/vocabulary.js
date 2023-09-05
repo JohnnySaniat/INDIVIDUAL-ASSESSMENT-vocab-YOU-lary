@@ -19,13 +19,15 @@ const showVocabulary = (array) => {
     array.forEach((item) => {
       domString += `
       <div class="card">
-        <div class="card-body" style="height: 180px;">
+        <div class="card-body" style="height: 275px;">
           <h5 class="card-title">${item.title}</h5>
-            <p class="card-text bold">${item.isStarred ? `<span class="badge badge-info sale-badge"><i class="fa fa-bell" aria-hidden="true"></i> Sale</span> $${item.price}` : `$${item.price}`}</p>
+          <p class="card-description">${item.description}</p>
+          <hr>
+            <p class="card-text bold">${item.isStarred ? '<span class="badge badge-info sale-badge"><i class="fa fa-star" aria-hidden="true"></i> Favorite</span>' : ''}</p>
             <hr>
-            <i class="btn btn-success" id="view-book-btn--${item.firebaseKey}">VIEW</i>
-            <i id="edit-book-btn--${item.firebaseKey}" class=" btn btn-info">EDIT</i>
-            <i id="delete-book-btn--${item.firebaseKey}" class="btn btn-danger">DELETE</i>
+            <i class="btn btn-success" id="view-vocabulary-btn--${item.firebaseKey}">VIEW</i>
+            <i id="edit-vocabulary-btn--${item.firebaseKey}" class=" btn btn-info">EDIT</i>
+            <i id="delete-vocabulary-btn--${item.firebaseKey}" class="btn btn-danger">DELETE</i>
         </div>
         </div>`;
     });

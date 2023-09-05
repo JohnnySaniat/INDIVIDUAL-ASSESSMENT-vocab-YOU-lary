@@ -11,9 +11,9 @@ const navBar = () => {
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#" id="Create Vocabulary">
+              <button class="nav-link" href="#" id="add-vocabulary-btn">
                 Add Vocabulary <span class="sr-only">(current)</span>
-              </a>
+              </button>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#" id="all-vocabulary">All Vocabulary</a>
@@ -22,7 +22,7 @@ const navBar = () => {
               <a class="nav-link" href="#" id="filter-vocabulary">Vocabulary by Category</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#" id="placeholder">Placeholder</a>
+            <a class="nav-link" href="#" id="favorite-vocabulary">Favorites</a>
           </li>
             <li>
             <input
@@ -33,7 +33,7 @@ const navBar = () => {
             />
             </li>
           </ul>
-          <button type="button" class="btn btn-danger">Logout</button>
+          <button type="button" class="btn btn-danger" id="new-logout">Logout</button>
         </div>
         </div>
       </nav>`;
