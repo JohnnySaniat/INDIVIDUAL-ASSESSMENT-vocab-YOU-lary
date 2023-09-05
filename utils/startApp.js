@@ -4,12 +4,16 @@ import navigationEvents from '../events/navigationEvents';
 import { getVocabulary } from '../api/vocabularyData';
 import { showVocabulary } from '../pages/vocabulary';
 import logoutButton from '../components/logoutButton';
+import domEvents from '../events/domEvents';
+import formEvents from '../events/formEvents';
 
 const startApp = (user) => {
   domBuilder(user);
+  domEvents(user);
+  formEvents(user);
   navBar(user);
-  navigationEvents(user);
   logoutButton();
+  navigationEvents(user);
   getVocabulary(user.uid).then((vocabulary) => showVocabulary(vocabulary));
 };
 
