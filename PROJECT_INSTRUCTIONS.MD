@@ -45,12 +45,12 @@ Create issue tickets from the items below to help you get started.
 
 # MVP Requirements
 [MVP Wireframe](https://www.figma.com/file/IW4jF3GnzCFLYbEXlgFNIZ/MVP)
-- [ ] An ERD of your data
-- [ ] Use Firebase for DB and authentication
-- [ ] Technical Flow chart (timebox this)
-- [ ] The app has a navigation bar that includes:
+- [x ] An ERD of your data
+- [x ] Use Firebase for DB and authentication
+- [x ] Technical Flow chart (timebox this)
+- [ x] The app has a navigation bar that includes:
   - [ ] A Title/Logo (do not spend a ton of time on this until you reach MVP)
-  - [ ] Logout button
+  - [ x] Logout button
   - [ ] Create Entry
   - [ ] Any other options you would like to add
 
@@ -61,7 +61,7 @@ Create issue tickets from the items below to help you get started.
   - [ ] Title
   - [ ] Definition
   - [ ] Language/Tech
-  - [ ] Time submitted - Not on form. Handle in your JS
+  - [ ] Date Submitted - Not on form. Handle in your JS
   - [ ] user ID - Not on form. Pull from User object.
 - [ ] READ THIER entries
 - [ ] UPDATE THEIR entries

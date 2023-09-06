@@ -19,11 +19,17 @@ const navBar = () => {
             <a class="nav-link" href="#" id="all-vocabulary">All Vocabulary</a>
           </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="filter-vocabulary">Vocabulary by Category</a>
+              <a class="nav-link" href="#" id="webpack-vocabulary">Webpack</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#" id="favorite-vocabulary">Favorites</a>
+              <a class="nav-link" href="#" id="javascript-vocabulary">Javascript</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#" id="html-vocabulary">HTML</a>
           </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#" id="css-vocabulary">CSS</a>
+        </li>
             <li>
             <input
               class="form-control mr-sm-2"

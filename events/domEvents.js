@@ -1,6 +1,7 @@
 import { getVocabulary, getSingleVocabulary, deleteVocabulary } from '../api/vocabularyData';
 import { emptyVocabulary, showVocabulary } from '../pages/vocabulary';
 import addVocabularyForm from '../components/forms/addVocabularyForm';
+import viewVocabularyCard from '../pages/viewVocabularyCard';
 
 const domEvents = (user) => {
   document.querySelector('#main-container').addEventListener('click', (e) => {
@@ -26,6 +27,11 @@ const domEvents = (user) => {
     if (e.target.id.includes('edit-vocabulary-btn')) {
       const [, firebaseKey] = e.target.id.split('--');
       getSingleVocabulary(firebaseKey).then((vocabularyObj) => addVocabularyForm(user.uid, vocabularyObj));
+    }
+
+    if (e.target.id.includes('view-vocabulary-btn')) {
+      const [, firebaseKey] = e.target.id.split('--');
+      getSingleVocabulary(firebaseKey).then((vocabularyObj) => viewVocabularyCard(user.uid, vocabularyObj));
     }
   });
 };

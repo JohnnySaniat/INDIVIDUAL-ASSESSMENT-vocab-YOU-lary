@@ -19,11 +19,12 @@ const showVocabulary = (array) => {
     array.forEach((item) => {
       domString += `
       <div class="card">
-        <div class="card-body" style="height: 275px;">
-          <h5 class="card-title">${item.title}</h5>
-          <p class="card-description">${item.description}</p>
-          <hr>
-            <p class="card-text bold">${item.isStarred ? '<span class="badge badge-info sale-badge"><i class="fa fa-star" aria-hidden="true"></i> Favorite</span>' : ''}</p>
+        <div class="card-body" style="height: 400px;">
+          <h4 class="card-title">${item.title}</h4>
+          <h6 class="card-title">${item.description}</h6>
+            <hr>
+          <h6 class="card-title"> <i class="fa fa-tag" aria-hidden="true"></i> ${item.category}</h6>
+          <h6 class="card-title"> <i class="fa fa-calendar" aria-hidden="true"></i> ${item.dateSubmitted}</h6>
             <hr>
             <i class="btn btn-success" id="view-vocabulary-btn--${item.firebaseKey}">VIEW</i>
             <i id="edit-vocabulary-btn--${item.firebaseKey}" class=" btn btn-info">EDIT</i>

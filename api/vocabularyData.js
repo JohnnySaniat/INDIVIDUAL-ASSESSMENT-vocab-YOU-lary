@@ -84,8 +84,44 @@ const vocabularyByStarred = () => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-const vocabularyByCategory = () => new Promise((resolve, reject) => {
+const vocabularyByWebpack = () => new Promise((resolve, reject) => {
   fetch(`${endpoint}/vocabulary.json?orderBy="category"&equalTo="Webpack"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
+const vocabularyByJavascript = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabulary.json?orderBy="category"&equalTo="Javascript"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
+const vocabularyByHTML = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabulary.json?orderBy="category"&equalTo="HTML"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
+const vocabularyByCSS = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabulary.json?orderBy="category"&equalTo="CSS"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -109,7 +145,10 @@ const searchVocabulary = (searchValue, uid) => new Promise((resolve, reject) => 
 export {
   getVocabulary,
   createVocabulary,
-  vocabularyByCategory,
+  vocabularyByWebpack,
+  vocabularyByJavascript,
+  vocabularyByHTML,
+  vocabularyByCSS,
   deleteVocabulary,
   getSingleVocabulary,
   updateVocabulary,
