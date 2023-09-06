@@ -1,95 +1,95 @@
 {
   "-NdLyfWegUuzdA1Jkk20": {
-    "title": "Si",
+    "title": "Array literals",
     "firebaseKey": "-NdLyfWegUuzdA1Jkk20",
-    "definition": "Donoher",
+    "description": "You can create arrays in two different ways. The most common of which is to list values in a pair of square brackets. JavaScript arrays can contain any types of values and they can be of mixed types.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "timeSubmitted": "7/31/2023",
+    "dateSubmitted": "7/31/2023",
     "category": "Javascript",
     "isStarred": "true"
   },
   "-NdLyfWf3gjlnJUfQymI": {
-    "title": "Patience",
+    "title": "id",
     "firebaseKey": "-NdLyfWf3gjlnJUfQymI",
-    "definition": "Amis",
+    "description": "An HTML element can have an id attribute to identify it. id elements should always be unique to that single element, and each element should never have more than one id.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "timeSubmitted": "8/3/2023",
+    "dateSubmitted": "8/3/2023",
     "category": "HTML",
     "isStarred": "true"
   },
   "-NdLyfWgDAnocu4ZlTxA": {
-    "title": "Christy",
+    "title": "Control Flow",
     "firebaseKey": "-NdLyfWgDAnocu4ZlTxA",
-    "definition": "Wimlet",
+    "description": "Control flow is the order in which statements are executed in a program. The default control flow is for statements to be read and executed in order from left-to-right, top-to-bottom in a program file.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "timeSubmitted": "2/5/2023",
+    "dateSubmitted": "2/5/2023",
     "category": "Javascript",
     "isStarred": "true"
   },
   "-NdLyfWgDAnocu4ZlTxB": {
-    "title": "Holmes",
+    "title": "Properties",
     "firebaseKey": "-NdLyfWgDAnocu4ZlTxB",
-    "definition": "Buttler",
+    "description": "Properties are defined within selectors by defining a property and a value. They are separated with a colon and delineated with a semi-colon.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "timeSubmitted": "12/6/2022",
+    "dateSubmitted": "12/6/2022",
     "category": "CSS",
     "isStarred": "true"
   },
   "-NdLyfWhDJ7CB7B3AeVr": {
-    "title": "Gilli",
+    "title": "Asset",
     "firebaseKey": "-NdLyfWhDJ7CB7B3AeVr",
-    "definition": "Bourchier",
+    "description": "Asset: This is a general term for the images, fonts, media, and any other kind of files that are typically used in websites and other applications. These typically end up as individual files within the output but can also be inlined via things like the style-loader or url-loader.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "timeSubmitted": "4/17/2023",
+    "dateSubmitted": "4/17/2023",
     "category": "Webpack",
-    "isStarred": "true"
+    "isStarred": "false"
   },
   "-NdLyfWhDJ7CB7B3AeVs": {
-    "title": "Garrek",
+    "title": "Code Splitting",
     "firebaseKey": "-NdLyfWhDJ7CB7B3AeVs",
-    "definition": "Sermin",
+    "description": "Refers to dividing your code into various bundles/chunks which you can then load on demand instead of loading a single bundle containing everything.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "timeSubmitted": "2/18/2023",
+    "dateSubmitted": "2/18/2023",
     "category": "Webpack",
     "isStarred": "false"
 
   },
   "-NdLyfWiHLfBAiUY91ry": {
-    "title": "Hughie",
+    "title": "Logical Operator ||",
     "firebaseKey": "-NdLyfWiHLfBAiUY91ry",
-    "definition": "Clatworthy",
+    "description": "The logical OR operator || checks two values and returns a boolean. If one or both values are truthy, it returns true. If both values are falsy, it returns false.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "timeSubmitted": "8/4/2023",
+    "dateSubmitted": "8/4/2023",
     "category": "Javascript",
     "isStarred": "false"
 
   },
   "-NdLyfWiHLfBAiUY91rz": {
-    "title": "Welsh",
+    "title": "font-family",
     "firebaseKey": "-NdLyfWiHLfBAiUY91rz",
-    "definition": "Meriot",
+    "description": "The font-family property sets the font of an HTML element’s text.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "timeSubmitted": "10/9/2022",
+    "dateSubmitted": "10/9/2022",
     "category": "CSS",
     "isStarred": "false"
 
   },
   "-NdLyfWjse_Gu2hoNvIF": {
-    "title": "Giuseppe",
+    "title": "Shimming",
     "firebaseKey": "-NdLyfWjse_Gu2hoNvIF",
-    "definition": "Sherrell",
+    "description": "Not all JS files can be used directly with webpack. The file maybe in an unsupported module format, or not even in any module format. It is here where shimming comes into play.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "timeSubmitted": "5/10/2023",
+    "dateSubmitted": "5/10/2023",
     "category": "Webpack",
     "isStarred": "true"
 
   },
   "-NdLyfWjse_Gu2hoNvIG": {
-    "title": "Jilli",
+    "title": "href",
     "firebaseKey": "-NdLyfWjse_Gu2hoNvIG",
-    "definition": "Dollard",
+    "description": "Links tell the browser where to go using an href attribute, which stores a URL.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "timeSubmitted": "1/19/2023",
+    "dateSubmitted": "1/19/2023",
     "category": "HTML",
     "isStarred": "true"
 

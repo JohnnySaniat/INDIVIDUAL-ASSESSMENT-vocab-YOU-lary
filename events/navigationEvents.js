@@ -10,12 +10,20 @@ const navigationEvents = (user) => {
   document.querySelector('#new-logout')
     .addEventListener('click', signOut);
 
-  document.querySelector('#favorite-vocabulary').addEventListener('click', () => {
-    vocabularyData.vocabularyByStarred(user.uid).then(showVocabulary);
+  document.querySelector('#webpack-vocabulary').addEventListener('click', () => {
+    vocabularyData.vocabularyByWebpack(user.uid).then(showVocabulary);
   });
 
-  document.querySelector('#filter-vocabulary').addEventListener('click', () => {
-    vocabularyData.vocabularyByCategory(user.uid).then(showVocabulary);
+  document.querySelector('#javascript-vocabulary').addEventListener('click', () => {
+    vocabularyData.vocabularyByJavascript(user.uid).then(showVocabulary);
+  });
+
+  document.querySelector('#html-vocabulary').addEventListener('click', () => {
+    vocabularyData.vocabularyByHTML(user.uid).then(showVocabulary);
+  });
+
+  document.querySelector('#css-vocabulary').addEventListener('click', () => {
+    vocabularyData.vocabularyByCSS(user.uid).then(showVocabulary);
   });
 
   document.querySelector('#search').addEventListener('keyup', (e) => {

@@ -97,3 +97,17 @@ body {
     white-space: pre-wrap;
   }
 }
+
+#vocabulary-card-single {
+  width: 30%;
+  margin: auto;
+
+  .details {
+    min-width: 50%;
+    max-width: 60%;
+  }
+
+  .description {
+    white-space: pre-wrap;
+  }
+}

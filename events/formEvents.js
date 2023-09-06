@@ -9,8 +9,7 @@ const formEvents = (user) => {
         title: document.querySelector('#title').value,
         description: document.querySelector('#description').value,
         category: document.querySelector('#category').value,
-        timeSubmitted: document.querySelector('#timeSubmitted').value,
-        isStarred: document.querySelector('#isStarred').checked,
+        dateSubmitted: document.querySelector('#dateSubmitted').value,
         uid: user.uid
       };
 
@@ -29,8 +28,7 @@ const formEvents = (user) => {
         title: document.querySelector('#title').value,
         description: document.querySelector('#description').value,
         category: document.querySelector('#category').value,
-        timeSubmitted: document.querySelector('#timeSubmitted').value,
-        isStarred: document.querySelector('#isStarred').checked,
+        dateSubmitted: document.querySelector('#dateSubmitted').value,
         uid: user.uid,
         firebaseKey,
       };
