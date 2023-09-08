@@ -6,8 +6,10 @@ import { showVocabulary } from '../pages/vocabulary';
 import logoutButton from '../components/logoutButton';
 import domEvents from '../events/domEvents';
 import formEvents from '../events/formEvents';
+import loginButton from '../components/loginButton';
 
 const startApp = (user) => {
+  loginButton();
   domBuilder(user);
   domEvents(user);
   formEvents(user);
