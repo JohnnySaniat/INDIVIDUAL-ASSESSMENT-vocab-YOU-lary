@@ -20,9 +20,6 @@ const domEvents = (user) => {
         });
       }
     }
-    if (e.target.id.includes('add-vocabulary-btn')) {
-      addVocabularyForm(user.uid);
-    }
 
     if (e.target.id.includes('edit-vocabulary-btn')) {
       const [, firebaseKey] = e.target.id.split('--');

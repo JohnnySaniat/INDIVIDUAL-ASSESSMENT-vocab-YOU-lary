@@ -15,7 +15,7 @@ const addVocabularyForm = (uid, obj = {}) => {
       </div>
       <div class="form-group">
         <label for="dateSubmitted">Date Submitted</label>
-        <input type="text" class="form-control" id="dateSubmitted" placeholder="Enter the Time" value="${obj.dateSubmitted || ''}" required>
+        <<input type="date" class="form-control" id="dateSubmitted" placeholder="DD/MM/YYYY" value="${obj.dateSubmitted || ''}" required>
       </div>
       <div class="form-group">
         <label for="category">Category</label>

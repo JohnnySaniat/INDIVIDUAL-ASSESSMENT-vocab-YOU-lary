@@ -9,9 +9,6 @@ const emptyVocabulary = () => {
 const showVocabulary = (array) => {
   clearDom();
 
-  const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-vocabulary-btn">Add Vocabulary</button>';
-  renderToDOM('#add-button', btnString);
-
   let domString = '';
   if (array.length < 1) {
     domString += 'No Vocabulary Found';
@@ -26,7 +23,7 @@ const showVocabulary = (array) => {
           <h6 class="card-title"> <i class="fa fa-tag" aria-hidden="true"></i> ${item.category}</h6>
           <h6 class="card-title"> <i class="fa fa-calendar" aria-hidden="true"></i> ${item.dateSubmitted}</h6>
             <hr>
-            <i class="btn btn-success" id="view-vocabulary-btn--${item.firebaseKey}">VIEW</i>
+            <i class="btn btn-success" id="view-vocabulary-btn--${item.firebaseKey}">STUDY</i>
             <i id="edit-vocabulary-btn--${item.firebaseKey}" class=" btn btn-info">EDIT</i>
             <i id="delete-vocabulary-btn--${item.firebaseKey}" class="btn btn-danger">DELETE</i>
         </div>
