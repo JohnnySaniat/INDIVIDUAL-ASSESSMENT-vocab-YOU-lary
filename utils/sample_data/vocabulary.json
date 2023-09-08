@@ -4,7 +4,7 @@
     "firebaseKey": "-NdLyfWegUuzdA1Jkk20",
     "description": "You can create arrays in two different ways. The most common of which is to list values in a pair of square brackets. JavaScript arrays can contain any types of values and they can be of mixed types.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "dateSubmitted": "7/31/2023",
+    "dateSubmitted": "2023/06/04",
     "category": "Javascript",
     "isStarred": "true"
   },
@@ -13,7 +13,7 @@
     "firebaseKey": "-NdLyfWf3gjlnJUfQymI",
     "description": "An HTML element can have an id attribute to identify it. id elements should always be unique to that single element, and each element should never have more than one id.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "dateSubmitted": "8/3/2023",
+    "dateSubmitted": "2022/12/04",
     "category": "HTML",
     "isStarred": "true"
   },
@@ -22,7 +22,7 @@
     "firebaseKey": "-NdLyfWgDAnocu4ZlTxA",
     "description": "Control flow is the order in which statements are executed in a program. The default control flow is for statements to be read and executed in order from left-to-right, top-to-bottom in a program file.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "dateSubmitted": "2/5/2023",
+    "dateSubmitted": "2019/09/07",
     "category": "Javascript",
     "isStarred": "true"
   },
@@ -31,7 +31,7 @@
     "firebaseKey": "-NdLyfWgDAnocu4ZlTxB",
     "description": "Properties are defined within selectors by defining a property and a value. They are separated with a colon and delineated with a semi-colon.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "dateSubmitted": "12/6/2022",
+    "dateSubmitted": "1994/03/29",
     "category": "CSS",
     "isStarred": "true"
   },
@@ -40,7 +40,7 @@
     "firebaseKey": "-NdLyfWhDJ7CB7B3AeVr",
     "description": "Asset: This is a general term for the images, fonts, media, and any other kind of files that are typically used in websites and other applications. These typically end up as individual files within the output but can also be inlined via things like the style-loader or url-loader.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "dateSubmitted": "4/17/2023",
+    "dateSubmitted": "1993/07/30",
     "category": "Webpack",
     "isStarred": "false"
   },
@@ -49,7 +49,7 @@
     "firebaseKey": "-NdLyfWhDJ7CB7B3AeVs",
     "description": "Refers to dividing your code into various bundles/chunks which you can then load on demand instead of loading a single bundle containing everything.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "dateSubmitted": "2/18/2023",
+    "dateSubmitted": "2012/09/12",
     "category": "Webpack",
     "isStarred": "false"
 
@@ -59,7 +59,7 @@
     "firebaseKey": "-NdLyfWiHLfBAiUY91ry",
     "description": "The logical OR operator || checks two values and returns a boolean. If one or both values are truthy, it returns true. If both values are falsy, it returns false.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "dateSubmitted": "8/4/2023",
+    "dateSubmitted": "2020/02/20",
     "category": "Javascript",
     "isStarred": "false"
 
@@ -79,7 +79,7 @@
     "firebaseKey": "-NdLyfWjse_Gu2hoNvIF",
     "description": "Not all JS files can be used directly with webpack. The file maybe in an unsupported module format, or not even in any module format. It is here where shimming comes into play.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "dateSubmitted": "5/10/2023",
+    "dateSubmitted": "2011/11/11",
     "category": "Webpack",
     "isStarred": "true"
 
@@ -89,7 +89,7 @@
     "firebaseKey": "-NdLyfWjse_Gu2hoNvIG",
     "description": "Links tell the browser where to go using an href attribute, which stores a URL.",
     "uid": "hSCOLMhXBBUWXoVOKnqT2eT1O9T2",
-    "dateSubmitted": "1/19/2023",
+    "dateSubmitted": "2018/04/20",
     "category": "HTML",
     "isStarred": "true"
 

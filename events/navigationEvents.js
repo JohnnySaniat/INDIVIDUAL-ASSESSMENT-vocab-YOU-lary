@@ -1,6 +1,7 @@
 import { signOut } from '../utils/auth';
 import * as vocabularyData from '../api/vocabularyData';
 import { emptyVocabulary, showVocabulary } from '../pages/vocabulary';
+import addVocabularyForm from '../components/forms/addVocabularyForm';
 
 const navigationEvents = (user) => {
   document.querySelector('#all-vocabulary').addEventListener('click', () => {
@@ -24,6 +25,10 @@ const navigationEvents = (user) => {
 
   document.querySelector('#css-vocabulary').addEventListener('click', () => {
     vocabularyData.vocabularyByCSS(user.uid).then(showVocabulary);
+  });
+
+  document.querySelector('#create-vocabulary').addEventListener('click', () => {
+    addVocabularyForm();
   });
 
   document.querySelector('#search').addEventListener('keyup', (e) => {

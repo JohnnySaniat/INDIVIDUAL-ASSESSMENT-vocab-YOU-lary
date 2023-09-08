@@ -3,11 +3,11 @@
 
 
 body {
-  background-color: grey;
+  background-color: rgb(217, 186, 216);
 }
 
 .navbar-dark .navbar-brand {
-  font-family: "Oregano", cursive !important;
+  font-family: 'Acme', sans-serif;
   color: rgb(191, 0, 255);
   font-weight: 900;
   font-size: 2em;
@@ -25,10 +25,6 @@ body {
   height: 200px;
 }
 
-#cart-thumb img {
-  height: 100px;
-}
-
 .logout {
   margin: 0 20px;
   font-size: 25px;
@@ -41,11 +37,6 @@ body {
   margin: 0 auto;
   margin-top: 100px;
   align-content: center;
-
-  #add-button {
-    margin: 0 auto;
-    text-align: center;
-  }
 
   #form-container {
     width: 60%;
@@ -60,6 +51,7 @@ body {
 
   #store {
     width: 90%;
+    font-family: 'Acme', sans-serif;
     display: flex;
     flex-flow: row wrap;
     text-align: center;
@@ -69,11 +61,6 @@ body {
     .card {
       width: 300px;
       margin: 5px;
-
-      .sale-badge {
-        font-size: 1em;
-        background-color: blue;
-      }
     }
 
     .table {
@@ -98,16 +85,63 @@ body {
   }
 }
 
-#vocabulary-card-single {
-  width: 30%;
-  margin: auto;
+.navbar-nav > li{
+  padding-left:11px;
+  padding-right:11px;
+}
 
-  .details {
-    min-width: 50%;
-    max-width: 60%;
-  }
+.flip-card {
+  background-color: transparent;
+  font-family: 'Acme', sans-serif;
+  align-items: center;
+  width: 325px;
+  height: 400px;
+  perspective: 1000px;
+}
 
-  .description {
-    white-space: pre-wrap;
-  }
+.flip-card-inner {
+  position: relative;
+  width: 325px;
+  height: 400px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 325px;
+  height: 400px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  text-align: center;
+}
+
+.flip-card-front {
+  background-image: url("https://i.pinimg.com/originals/2f/6d/40/2f6d406d481f6a1ad0f459adc616868a.jpg");
+  color: white;
+  -webkit-text-stroke: 3px;
+  -webkit-text-stroke-color: black;
+  align-content: center;
+  font-size: 75px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.flip-card-back {
+  color: black;
+  font-size: large;
+  background-color: white;
+  transform: rotateY(180deg);
+  font-size: 20px;
+  border: 3px;
+  padding: 10px;
+}
+
+hr {
+  background-color: aqua;
 }
