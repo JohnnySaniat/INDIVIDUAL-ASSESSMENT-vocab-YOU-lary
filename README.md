@@ -21,11 +21,8 @@ https://www.loom.com/share/be5c17b97b314062915c923e83e7ad28?sid=b68caf40-c98d-4d
 - [Project Board](#https://excalidraw.com/#json=AHYo_uEYWzVyr5MU1czIM,RS_DJ4GrW8bkxP47q24dSw)
 - [Folder Design](#https://dbdiagram.io/d/64f3533f02bd1c4a5ed9e906)
 
-## Code Snippet <!-- OPTIONAL, but doesn't hurt -->
-PLACE CODE SNIPPET HERE
 
 ## Project Screenshots
-<img width="1148" alt="Your Alt" src="your-link.png">
 ![Main Layout](images/mainLayout.png)
 ![Add Vocabulary Form](images/addVocabulary.png)
 ![Navigation Bar](images/navbar.png)
